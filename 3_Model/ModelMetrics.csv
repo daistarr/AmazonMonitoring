@@ -1,0 +1,5 @@
+Model,Input Shape,Num Classes,Optimizer,Loss Function,Batch Size,Epochs,Early Stopping Patience,Final Training Accuracy,Final Validation Accuracy,Final Training Loss,Final Validation Loss,Ensemble Accuracy,Ensemble Precision,Ensemble Recall,Ensemble F1 Score
+Weather,"(128, 128, 3)",4,Adam,Binary Crossentropy,32,50,5,0.7020866274833679,0.7006111741065979,,,0.0,0.0,0.0,0.0
+Land,"(128, 128, 3)",5,Adam,Binary Crossentropy,32,50,5,0.9800731539726257,0.9763407111167908,,,0.0,0.0,0.0,0.0
+Activity,"(128, 128, 3)",6,Adam,Binary Crossentropy,32,50,5,0.9105023741722107,0.9082216024398804,,,0.0,0.0,0.0,0.0
+Phenomenon,"(128, 128, 3)",2,Adam,Binary Crossentropy,32,50,5,0.997873842716217,0.9974368810653687,,,0.0,0.0,0.0,0.0
